@@ -1,0 +1,47 @@
+ 
+ h1{
+    color:rgb(89, 82, 22);
+}
+
+body{
+    background-color: #8e9aaf;
+} 
+
+/* Selectors
+
+1. Universal Selector
+
+*/ 
+*{
+    color:red;
+    background-color:rgb(198, 32, 118);
+}
+
+/* 2. Element Selector */
+
+h1{
+    color:blue;
+}
+
+/* 3. Id Selector */
+#heading2{
+    color:black;
+} 
+
+
+/* 4. Class selector */
+.myclass{
+    color:darkgrey;
+} 
+ 
+
+/*Practice set 1*/
+
+div{
+    background-color:blue;
+}
+
+.class{
+    color:red;
+}
+
