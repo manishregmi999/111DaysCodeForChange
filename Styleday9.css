@@ -1,0 +1,69 @@
+/* practice set 1*/
+
+button{
+    background-color:green;
+}
+
+p{
+    text-align:center;
+}
+
+h1{
+    text-align:center;
+    text-decoration:underline;
+}
+
+h2{
+    text-align:start;  
+    text-decoration:overline; 
+}
+
+h3{
+    text-align:end;
+    text-decoration:blue wavy underline;   
+}
+
+a{
+    text-decoration:none;
+}
+
+#h101 {
+    text-align:center;
+    text-decoration:none;
+    font-weight : normal;
+}
+
+#h102 {
+    text-align:center;
+    text-decoration:none;
+    font-weight : bold;
+}
+
+#h103 {
+    text-align:center;
+    text-decoration:none;
+    font-weight : bolder;
+}
+
+#h104 {
+    text-align:center;
+    text-decoration:none;
+    font-weight : lighter;
+}
+
+#h105{
+    text-decoration:none;
+    font-weight:900; /* 100 to 900 */
+}
+
+#manish{
+    font-family:arial;
+
+}
+
+
+#manish1{
+    font-family:'Times New Roman', Times, serif /*times new roman font xa vane tyo apply gar, xaina vane times apply garr, tyo ni xaina vane serif. Since multiple browsers ma diff font support grxa so*/
+    
+}
+
