@@ -1,0 +1,21 @@
+h1{
+    background-color:pink;
+    height:70px;
+    width:200px;
+    border-width:50px;
+    border-style:solid;
+    border-color:bisque;
+    text-align:center;  /* Here heading will get alligned based on the border not the whole webpage. */
+}
+
+
+
+div{
+    height:100px;
+    background-color : pink;
+    width:150px;
+    /* border-width:20px;
+    border-color:blue;
+    border-style:solid; */
+    border:2px solid blue;  /*This is same as writing border width border style and border solor in a single line. */
+}

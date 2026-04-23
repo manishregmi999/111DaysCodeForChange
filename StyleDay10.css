@@ -1,0 +1,33 @@
+ #one{
+    font-size: 10px;
+}
+
+#two{
+    line-height : 15 px; /* line-height : normal; for normal height*/
+    text-transform:none; /*text-transform:none/uppercase/lowercase/capitalize;*/
+    
+} 
+
+ /* Practice Set 2  */
+/*  Q1. Create a heading centered on the page with all of its text capitalized by default.  */
+h1{
+    text-align :center;
+    text-transform:uppercase;
+}
+
+*{
+    font-family:"Times New Roman",serif, sans-serif;
+}
+
+#outer{
+    font-size:25px;
+}
+
+#inner{
+    font-size:10px;
+}
+
+
+
+
+
