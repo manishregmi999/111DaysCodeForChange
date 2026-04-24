@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+#logo{
+    font-size:25px;
+    color:#f08804;
+}
+
+#navbar{
+    border-style:solid;
+    height:60px;
+    background-color :black;
+}
+
+button{
+    background-color:#f08804;
+}
+
+a{
+    margin-right:200px;
+    text-decoration:none;
+}
+
