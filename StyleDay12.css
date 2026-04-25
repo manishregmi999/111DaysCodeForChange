@@ -1,0 +1,29 @@
+
+button{
+    display:block
+} 
+
+/* div{
+    height:100px;
+    width:100px;
+    padding:25px;
+    margin:25px;
+    display:inline;
+} */
+
+div{
+    height:100px;
+    width:100px;
+    padding:25px;
+    margin:25px;
+    display:inline-block;
+    /* visibility:hidden; */
+}
+/* 
+div{
+    display:none;
+} */
+
+#b1{
+    background-color:rgba(255, 0, 0, 0.50);/*Decides opacity, can go from 0 to 1, like 0.25 0.3 0.5 */
+}
