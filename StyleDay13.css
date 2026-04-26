@@ -1,0 +1,44 @@
+#box1{
+    height:100px;
+    width:200px;
+    background-color:green;
+}
+
+#box2{
+    height:50px;
+    width:30%; // 30% of its parents height so 30 % of 100px = 30px;
+    background-color:Yellow;
+    margin-left:10%;
+} */
+
+#box1{
+    height:100px;
+    width:200px;
+    background-color:green;
+    font-size:10px;
+}
+
+#box2{
+    height:50px;
+    width:30%; 
+    background-color:Yellow;
+    margin-left:10%;
+    font-size:2em;  2 times of parent font size; if 0.5em then half of parent's font size.
+    width:5em; // here 5em measn 5 times the font size of its own div that is 5 times 20px, since in this div we wrote font-size:2em which means 2 times the size of parents font size so. Parents font size is 10px so box2 fontsize is 2 times parents font-size so 20px, and width = 5em means 5 times the font size of its own so 5*20px = 100px;
+} 
+
+#box1{
+    height:100px;
+    width:200px;
+    background-color:green;
+    font-size:10px;
+}
+
+#box2{
+    height:100vh; /* browser ko 100% height */
+    background-color:Yellow;
+    margin-left:10%;
+    font-size:2em;  /* 2 times of parent font size; if 0.5em then half of parent's font size.*/
+    width:5rem; 
+    width:10vw; /*browser ko 10% width */
+} 
