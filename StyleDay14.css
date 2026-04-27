@@ -1,0 +1,37 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display : inline-block;
+}
+
+#box1{
+    background-color:red;
+    position : relative;
+    top:10px;
+    left:50px;
+    z-index:1;/* Here, since z index of box 4 is 0 by default so, for box 1 z index we made 1 so box 1 will hide box 4*/
+}
+
+#box2{
+    background-color:green;
+    position:absolute; /* Here absolute means its closest ansestor's position will be same as its, so if we put top:10px then closest ancestor is body tag so it will shift 10 px from top from body tag's top. */
+    top:10px;
+    left:10px;
+}
+
+#box3{
+    background-color:blue;
+    position:fixed;
+    right:1000px;
+    /* top:20px; */
+    bottom:10px; /* this won't be applied since its already top :20px; */
+    width : 10vw;
+}
+
+#box4   {
+    position: sticky;
+    top:5px;
+
+}
