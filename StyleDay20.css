@@ -1,0 +1,23 @@
+div{
+    height : 100px;
+    width: 100px;
+    background-color:aliceblue;
+    border:2px solid black;
+    transition:all;
+    transition-duration:2s;
+    transition-timing-function:steps; /* kon style ma transition hos ta, jhyappa, animation ko form ma, ki steps ko form ma. yesma steps ko form ma hunxa.*/
+    transition-timing-function:steps(5); /* 5 steps ma change apply hunxa */
+    transition-delay : 1s;
+    transition : all 2s ease-in 1s;/* all=sabb ma transition apply garni, 2s = transition huna kati time lagnita(duration), ease-in = transition ko style k hota, 1s = transition kati time paxi huni hota.*/
+
+}
+
+div:hover{
+    background-color:red;
+    /* color:white; */
+    font-size:larger;
+}
+
+div:active{
+    background-color:black;
+}
