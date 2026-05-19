@@ -1,0 +1,9 @@
+.loader {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    
+    /* background-color :  pink; */
+    border: 20px solid yellow;
+    border-top: 20px solid #4ECDC4;
+}
