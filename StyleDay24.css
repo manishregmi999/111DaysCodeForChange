@@ -1,0 +1,13 @@
+.loader {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border: 20px solid #F1D302;
+   border-top: 20px solid #1B8AF1;
+   animation: spinanimate 1s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinanimate{
+    from{transform: rotate(0deg)}
+    to {transform : rotate(360deg)}
+}
